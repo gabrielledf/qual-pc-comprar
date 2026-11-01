@@ -1,0 +1,105 @@
+/* Print Stylesheet for Saving as PDF or Physical Printing */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt !important;
+  }
+
+  .app-header,
+  .quiz-nav-header,
+  .progress-bar-container,
+  .quiz-footer,
+  .results-actions-bar,
+  .toast-container,
+  .btn,
+  .resume-banner,
+  .tech-accordion-summary,
+  .summary-chip-edit {
+    display: none !important;
+  }
+
+  .main-content {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .results-header {
+    margin-bottom: 15pt !important;
+    text-align: left !important;
+  }
+
+  .results-title {
+    font-size: 18pt !important;
+    color: #000000 !important;
+  }
+
+  .results-subtitle {
+    font-size: 10pt !important;
+    color: #444444 !important;
+    margin: 0 !important;
+  }
+
+  .summary-box {
+    border: 1pt solid #cccccc !important;
+    box-shadow: none !important;
+    padding: 10pt !important;
+    margin-bottom: 15pt !important;
+    page-break-inside: avoid;
+  }
+
+  .budget-warning-card {
+    border: 1pt solid #b45309 !important;
+    background: #fffbeb !important;
+    padding: 10pt !important;
+    margin-bottom: 15pt !important;
+    page-break-inside: avoid;
+  }
+
+  .recommendations-grid {
+    display: block !important;
+  }
+
+  .rec-card {
+    border: 1pt solid #bbbbbb !important;
+    box-shadow: none !important;
+    margin-bottom: 18pt !important;
+    page-break-inside: avoid;
+    background: #ffffff !important;
+  }
+
+  .rec-card.is-recommended {
+    border: 2pt solid #1d4ed8 !important;
+  }
+
+  .featured-ribbon {
+    background: #1d4ed8 !important;
+    color: #ffffff !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .specs-section {
+    background: #f9f9f9 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    border-bottom: 1pt solid #eeeeee !important;
+  }
+
+  .tech-details-content {
+    display: block !important;
+    border: 1pt dashed #cccccc !important;
+    background: #f9f9f9 !important;
+    margin-top: 8pt !important;
+  }
+
+  .results-footer-notes {
+    border-top: 1pt solid #cccccc !important;
+    margin-top: 15pt !important;
+    padding-top: 10pt !important;
+    color: #555555 !important;
+    font-size: 9pt !important;
+    page-break-inside: avoid;
+  }
+}

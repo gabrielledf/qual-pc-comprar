@@ -1,0 +1,6 @@
+{
+  "name": "Qual PC Comprar? - Guia Inteligente e Descomplicado",
+  "description": "Descubra a configuração ideal de computador para o seu perfil e orçamento sem jargões técnicos ou complicações.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
